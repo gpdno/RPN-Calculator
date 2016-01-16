@@ -12,6 +12,27 @@
 		8DCD66311C49BF2B00590959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD662F1C49BF2B00590959 /* Main.storyboard */; };
 		8DCD66331C49BF2B00590959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66321C49BF2B00590959 /* Assets.xcassets */; };
 		8DCD66361C49BF2B00590959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66341C49BF2B00590959 /* LaunchScreen.storyboard */; };
+		8DCD664F1C49BF8400590959 /* button 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD663D1C49BF8400590959 /* button 0.png */; };
+		8DCD66501C49BF8400590959 /* button 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD663E1C49BF8400590959 /* button 1.png */; };
+		8DCD66511C49BF8400590959 /* button 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD663F1C49BF8400590959 /* button 2.png */; };
+		8DCD66521C49BF8400590959 /* button 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66401C49BF8400590959 /* button 3.png */; };
+		8DCD66531C49BF8400590959 /* button 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66411C49BF8400590959 /* button 4.png */; };
+		8DCD66541C49BF8400590959 /* button 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66421C49BF8400590959 /* button 5.png */; };
+		8DCD66551C49BF8400590959 /* button 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66431C49BF8400590959 /* button 6.png */; };
+		8DCD66561C49BF8400590959 /* button 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66441C49BF8400590959 /* button 7.png */; };
+		8DCD66571C49BF8400590959 /* button 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66451C49BF8400590959 /* button 8.png */; };
+		8DCD66581C49BF8400590959 /* button 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66461C49BF8400590959 /* button 9.png */; };
+		8DCD66591C49BF8400590959 /* button AC.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66471C49BF8400590959 /* button AC.png */; };
+		8DCD665A1C49BF8400590959 /* button decimal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66481C49BF8400590959 /* button decimal.png */; };
+		8DCD665B1C49BF8400590959 /* button divide.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66491C49BF8400590959 /* button divide.png */; };
+		8DCD665C1C49BF8400590959 /* button enter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD664A1C49BF8400590959 /* button enter.png */; };
+		8DCD665D1C49BF8400590959 /* button minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD664B1C49BF8400590959 /* button minus.png */; };
+		8DCD665E1C49BF8400590959 /* button mutiply.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD664C1C49BF8400590959 /* button mutiply.png */; };
+		8DCD665F1C49BF8400590959 /* button plus_minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD664D1C49BF8400590959 /* button plus_minus.png */; };
+		8DCD66601C49BF8400590959 /* button plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD664E1C49BF8400590959 /* button plus.png */; };
+		8DCD66621C49BF9600590959 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66611C49BF9600590959 /* display.png */; };
+		8DCD66651C49EED600590959 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66641C49EED600590959 /* digital-7 (mono).ttf */; };
+		8DCD66671C49F70600590959 /* button Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66661C49F70600590959 /* button Swap.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +43,27 @@
 		8DCD66321C49BF2B00590959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DCD66351C49BF2B00590959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DCD66371C49BF2B00590959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCD663D1C49BF8400590959 /* button 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 0.png"; sourceTree = "<group>"; };
+		8DCD663E1C49BF8400590959 /* button 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 1.png"; sourceTree = "<group>"; };
+		8DCD663F1C49BF8400590959 /* button 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 2.png"; sourceTree = "<group>"; };
+		8DCD66401C49BF8400590959 /* button 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 3.png"; sourceTree = "<group>"; };
+		8DCD66411C49BF8400590959 /* button 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 4.png"; sourceTree = "<group>"; };
+		8DCD66421C49BF8400590959 /* button 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 5.png"; sourceTree = "<group>"; };
+		8DCD66431C49BF8400590959 /* button 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 6.png"; sourceTree = "<group>"; };
+		8DCD66441C49BF8400590959 /* button 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 7.png"; sourceTree = "<group>"; };
+		8DCD66451C49BF8400590959 /* button 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 8.png"; sourceTree = "<group>"; };
+		8DCD66461C49BF8400590959 /* button 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button 9.png"; sourceTree = "<group>"; };
+		8DCD66471C49BF8400590959 /* button AC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button AC.png"; sourceTree = "<group>"; };
+		8DCD66481C49BF8400590959 /* button decimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button decimal.png"; sourceTree = "<group>"; };
+		8DCD66491C49BF8400590959 /* button divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button divide.png"; sourceTree = "<group>"; };
+		8DCD664A1C49BF8400590959 /* button enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button enter.png"; sourceTree = "<group>"; };
+		8DCD664B1C49BF8400590959 /* button minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button minus.png"; sourceTree = "<group>"; };
+		8DCD664C1C49BF8400590959 /* button mutiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button mutiply.png"; sourceTree = "<group>"; };
+		8DCD664D1C49BF8400590959 /* button plus_minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button plus_minus.png"; sourceTree = "<group>"; };
+		8DCD664E1C49BF8400590959 /* button plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button plus.png"; sourceTree = "<group>"; };
+		8DCD66611C49BF9600590959 /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
+		8DCD66641C49EED600590959 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		8DCD66661C49F70600590959 /* button Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button Swap.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +82,8 @@
 			children = (
 				8DCD662A1C49BF2A00590959 /* RPN Calculator */,
 				8DCD66291C49BF2A00590959 /* Products */,
+				8DCD66641C49EED600590959 /* digital-7 (mono).ttf */,
+				8DCD66631C49BFA100590959 /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +106,33 @@
 				8DCD66371C49BF2B00590959 /* Info.plist */,
 			);
 			path = "RPN Calculator";
+			sourceTree = "<group>";
+		};
+		8DCD66631C49BFA100590959 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DCD66661C49F70600590959 /* button Swap.png */,
+				8DCD663D1C49BF8400590959 /* button 0.png */,
+				8DCD663E1C49BF8400590959 /* button 1.png */,
+				8DCD663F1C49BF8400590959 /* button 2.png */,
+				8DCD66401C49BF8400590959 /* button 3.png */,
+				8DCD66411C49BF8400590959 /* button 4.png */,
+				8DCD66421C49BF8400590959 /* button 5.png */,
+				8DCD66431C49BF8400590959 /* button 6.png */,
+				8DCD66441C49BF8400590959 /* button 7.png */,
+				8DCD66451C49BF8400590959 /* button 8.png */,
+				8DCD66461C49BF8400590959 /* button 9.png */,
+				8DCD66471C49BF8400590959 /* button AC.png */,
+				8DCD66481C49BF8400590959 /* button decimal.png */,
+				8DCD66491C49BF8400590959 /* button divide.png */,
+				8DCD664A1C49BF8400590959 /* button enter.png */,
+				8DCD664B1C49BF8400590959 /* button minus.png */,
+				8DCD664C1C49BF8400590959 /* button mutiply.png */,
+				8DCD664D1C49BF8400590959 /* button plus_minus.png */,
+				8DCD664E1C49BF8400590959 /* button plus.png */,
+				8DCD66611C49BF9600590959 /* display.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +167,7 @@
 				TargetAttributes = {
 					8DCD66271C49BF2A00590959 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = AUW28E79X4;
 					};
 				};
 			};
@@ -122,9 +194,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DCD66651C49EED600590959 /* digital-7 (mono).ttf in Resources */,
+				8DCD66671C49F70600590959 /* button Swap.png in Resources */,
+				8DCD66501C49BF8400590959 /* button 1.png in Resources */,
 				8DCD66361C49BF2B00590959 /* LaunchScreen.storyboard in Resources */,
+				8DCD66521C49BF8400590959 /* button 3.png in Resources */,
+				8DCD665F1C49BF8400590959 /* button plus_minus.png in Resources */,
+				8DCD665D1C49BF8400590959 /* button minus.png in Resources */,
+				8DCD66571C49BF8400590959 /* button 8.png in Resources */,
+				8DCD66541C49BF8400590959 /* button 5.png in Resources */,
+				8DCD665B1C49BF8400590959 /* button divide.png in Resources */,
 				8DCD66331C49BF2B00590959 /* Assets.xcassets in Resources */,
+				8DCD665C1C49BF8400590959 /* button enter.png in Resources */,
+				8DCD66601C49BF8400590959 /* button plus.png in Resources */,
+				8DCD66561C49BF8400590959 /* button 7.png in Resources */,
+				8DCD66551C49BF8400590959 /* button 6.png in Resources */,
+				8DCD66511C49BF8400590959 /* button 2.png in Resources */,
 				8DCD66311C49BF2B00590959 /* Main.storyboard in Resources */,
+				8DCD664F1C49BF8400590959 /* button 0.png in Resources */,
+				8DCD66621C49BF9600590959 /* display.png in Resources */,
+				8DCD665A1C49BF8400590959 /* button decimal.png in Resources */,
+				8DCD66581C49BF8400590959 /* button 9.png in Resources */,
+				8DCD665E1C49BF8400590959 /* button mutiply.png in Resources */,
+				8DCD66591C49BF8400590959 /* button AC.png in Resources */,
+				8DCD66531C49BF8400590959 /* button 4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "RPN Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SCDE.RPN-Calculator";
@@ -260,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "RPN Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SCDE.RPN-Calculator";
