@@ -64,7 +64,6 @@ class ViewController: UIViewController {
         
         collectionOfViews![0].text = stackNumber
 
-        
     }
     
     @IBAction func decimalButton(sender: UIButton) {
@@ -75,8 +74,18 @@ class ViewController: UIViewController {
             //do nothing
 
         } else {
-            stackNumber += "."
-            collectionOfViews![0].text = stackNumber
+            
+            if stackNumber == "" {
+                
+                stackNumber += "0."
+                collectionOfViews![0].text = stackNumber
+                
+            } else {
+                
+                stackNumber += "."
+                collectionOfViews![0].text = stackNumber
+            }
+
         }
     }
     
