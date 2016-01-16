@@ -33,6 +33,7 @@
 		8DCD66621C49BF9600590959 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66611C49BF9600590959 /* display.png */; };
 		8DCD66651C49EED600590959 /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66641C49EED600590959 /* digital-7 (mono).ttf */; };
 		8DCD66671C49F70600590959 /* button Swap.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66661C49F70600590959 /* button Swap.png */; };
+		8DCD66691C49F9E200590959 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD66681C49F9E200590959 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		8DCD66611C49BF9600590959 /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
 		8DCD66641C49EED600590959 /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
 		8DCD66661C49F70600590959 /* button Swap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button Swap.png"; sourceTree = "<group>"; };
+		8DCD66681C49F9E200590959 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				8DCD662A1C49BF2A00590959 /* RPN Calculator */,
 				8DCD66291C49BF2A00590959 /* Products */,
 				8DCD66641C49EED600590959 /* digital-7 (mono).ttf */,
+				8DCD66681C49F9E200590959 /* btn.wav */,
 				8DCD66631C49BFA100590959 /* Images */,
 			);
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				8DCD66601C49BF8400590959 /* button plus.png in Resources */,
 				8DCD66561C49BF8400590959 /* button 7.png in Resources */,
 				8DCD66551C49BF8400590959 /* button 6.png in Resources */,
+				8DCD66691C49F9E200590959 /* btn.wav in Resources */,
 				8DCD66511C49BF8400590959 /* button 2.png in Resources */,
 				8DCD66311C49BF2B00590959 /* Main.storyboard in Resources */,
 				8DCD664F1C49BF8400590959 /* button 0.png in Resources */,

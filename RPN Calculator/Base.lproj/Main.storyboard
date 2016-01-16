@@ -67,7 +67,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Os-Is-qpF">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Os-Is-qpF">
                                                 <rect key="frame" x="0.0" y="96" width="300" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="ejJ-po-G6L"/>
@@ -272,6 +272,9 @@
                                                             <constraint firstAttribute="width" constant="75" id="kR6-E4-Ycb"/>
                                                         </constraints>
                                                         <state key="normal" image="button decimal.png"/>
+                                                        <connections>
+                                                            <action selector="decimalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4OH-kv-Gyp"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zXS-VE-Mec">
                                                         <rect key="frame" x="150" y="0.0" width="150" height="75"/>
@@ -279,6 +282,9 @@
                                                             <constraint firstAttribute="width" secondItem="zXS-VE-Mec" secondAttribute="height" multiplier="2:1" id="aSX-gd-SJF"/>
                                                         </constraints>
                                                         <state key="normal" image="button enter.png"/>
+                                                        <connections>
+                                                            <action selector="enterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veU-D6-dZb"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -301,6 +307,12 @@
                             <constraint firstItem="SL6-83-Odb" firstAttribute="bottom" secondItem="4ea-dX-c6A" secondAttribute="bottom" constant="-5" id="ynU-Cg-tUw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="collectionOfViews" destination="0Os-Is-qpF" collectionClass="NSMutableArray" id="DeN-nE-2qg"/>
+                        <outletCollection property="collectionOfViews" destination="Ik6-sz-DdP" collectionClass="NSMutableArray" id="fPE-HR-aAk"/>
+                        <outletCollection property="collectionOfViews" destination="hVZ-Ko-Rz7" collectionClass="NSMutableArray" id="f7f-dR-OA7"/>
+                        <outletCollection property="collectionOfViews" destination="cKS-JY-MhV" collectionClass="NSMutableArray" id="RRw-Xd-j2h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
