@@ -32,10 +32,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionOfViews![0].text = "Stack One"
+        /*collectionOfViews![0].text = "Stack One"
         collectionOfViews![1].text = "Stack One"
         collectionOfViews![2].text = "Stack Two"
         collectionOfViews![3].text = "Stack Three"
+*/
         
         let audioPath = NSBundle.mainBundle().pathForResource("btn", ofType: "wav")!
         
@@ -87,6 +88,21 @@ class ViewController: UIViewController {
             }
 
         }
+    }
+    
+    @IBAction func swapButton(sender: UIButton) {
+        
+        playSound()
+        
+        let temp = stackArray[0]
+        stackArray[0] = stackArray[1]
+        stackArray[1] = temp
+        
+        displayStack()
+    }
+    
+    @IBAction func plusMinisButton(sender: AnyObject) {
+        
     }
     
     @IBAction func enterButton(sender: UIButton) {

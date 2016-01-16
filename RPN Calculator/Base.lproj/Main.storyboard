@@ -40,7 +40,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="g0z-Z6-4cF">
                                         <rect key="frame" x="0.0" y="0.0" width="300" height="128"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-JY-MhV">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-JY-MhV">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="7nP-uA-SXt"/>
@@ -49,7 +49,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-Ko-Rz7">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-Ko-Rz7">
                                                 <rect key="frame" x="0.0" y="32" width="300" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="YPo-Es-OzP"/>
@@ -58,7 +58,7 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ik6-sz-DdP">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ik6-sz-DdP">
                                                 <rect key="frame" x="0.0" y="64" width="300" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="lpZ-Kp-OxV"/>
@@ -100,6 +100,9 @@
                                                             <constraint firstAttribute="width" constant="75" id="U6i-4P-PWl"/>
                                                         </constraints>
                                                         <state key="normal" image="button Swap.png"/>
+                                                        <connections>
+                                                            <action selector="swapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IEt-8M-XJQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQO-nY-Yid">
                                                         <rect key="frame" x="150" y="0.0" width="75" height="75"/>
@@ -108,6 +111,9 @@
                                                             <constraint firstAttribute="width" constant="75" id="oM0-PF-yNR"/>
                                                         </constraints>
                                                         <state key="normal" image="button plus_minus.png"/>
+                                                        <connections>
+                                                            <action selector="plusMinisButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="INU-0h-Gcf"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csM-Jb-FrK">
                                                         <rect key="frame" x="225" y="0.0" width="75" height="75"/>
