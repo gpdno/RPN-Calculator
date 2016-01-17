@@ -88,6 +88,30 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func clearAllButton(sender: UIButton) {
+        
+        if stackArray.count != 0 {
+            
+            _ = stackArray
+        
+            var i = 0
+            
+            for _ in stackArray {
+                
+                if i < 3 {
+                    
+                    collectionOfViews?[i].text = ""
+                    
+                    i++
+                    
+                }
+                
+            }
+            
+        }
+        stackArray = []
+    }
+    
     @IBAction func swapButton(sender: UIButton) {
         
         playSound()
