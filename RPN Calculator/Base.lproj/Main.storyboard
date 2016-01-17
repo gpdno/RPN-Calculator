@@ -67,13 +67,13 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Os-Is-qpF">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Os-Is-qpF">
                                                 <rect key="frame" x="0.0" y="96" width="300" height="32"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="ejJ-po-G6L"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Digital-7Mono" family="Digital-7" pointSize="32"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -121,6 +121,9 @@
                                                             <constraint firstAttribute="width" secondItem="csM-Jb-FrK" secondAttribute="height" multiplier="1:1" id="R8d-np-oWi"/>
                                                         </constraints>
                                                         <state key="normal" image="button divide.png"/>
+                                                        <connections>
+                                                            <action selector="divideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aAv-fr-7S9"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -166,6 +169,9 @@
                                                             <constraint firstAttribute="width" secondItem="EjH-Pu-bT8" secondAttribute="height" multiplier="1:1" id="ePP-Rs-ZWF"/>
                                                         </constraints>
                                                         <state key="normal" image="button mutiply.png"/>
+                                                        <connections>
+                                                            <action selector="multiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kIW-1H-giZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -210,6 +216,9 @@
                                                             <constraint firstAttribute="width" secondItem="2ke-en-vkf" secondAttribute="height" multiplier="1:1" id="nVA-ll-Pz8"/>
                                                         </constraints>
                                                         <state key="normal" image="button minus.png"/>
+                                                        <connections>
+                                                            <action selector="minusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fG7-PC-hbl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -255,6 +264,9 @@
                                                             <constraint firstAttribute="width" secondItem="fEj-PT-21X" secondAttribute="height" multiplier="1:1" id="4Hj-0f-8fc"/>
                                                         </constraints>
                                                         <state key="normal" image="button plus.png"/>
+                                                        <connections>
+                                                            <action selector="plusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WXf-mN-ppO"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -314,7 +326,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outletCollection property="collectionOfViews" destination="0Os-Is-qpF" collectionClass="NSMutableArray" id="DeN-nE-2qg"/>
+                        <outlet property="workingView" destination="0Os-Is-qpF" id="CzD-DQ-dQk"/>
                         <outletCollection property="collectionOfViews" destination="Ik6-sz-DdP" collectionClass="NSMutableArray" id="fPE-HR-aAk"/>
                         <outletCollection property="collectionOfViews" destination="hVZ-Ko-Rz7" collectionClass="NSMutableArray" id="f7f-dR-OA7"/>
                         <outletCollection property="collectionOfViews" destination="cKS-JY-MhV" collectionClass="NSMutableArray" id="RRw-Xd-j2h"/>

@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     var stackArrayReverse = [String]()
     
     enum Operation: String {
-        case Decimal = "."
         case Divide = "/"
         case Mutiply = "*"
         case Subtract = "-"
@@ -27,16 +26,15 @@ class ViewController: UIViewController {
         case Empty = "Emply"
     }
     
+    var currentOperation: Operation = Operation.Empty
+    
+    @IBOutlet var workingView: UILabel!
+    
     @IBOutlet var collectionOfViews: Array<UILabel>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /*collectionOfViews![0].text = "Stack One"
-        collectionOfViews![1].text = "Stack One"
-        collectionOfViews![2].text = "Stack Two"
-        collectionOfViews![3].text = "Stack Three"
-*/
         
         let audioPath = NSBundle.mainBundle().pathForResource("btn", ofType: "wav")!
         
@@ -63,7 +61,7 @@ class ViewController: UIViewController {
         
         stackNumber += "\(btn.tag)"
         
-        collectionOfViews![0].text = stackNumber
+        workingView.text = stackNumber
 
     }
     
@@ -79,12 +77,12 @@ class ViewController: UIViewController {
             if stackNumber == "" {
                 
                 stackNumber += "0."
-                collectionOfViews![0].text = stackNumber
+                workingView.text = stackNumber
                 
             } else {
                 
                 stackNumber += "."
-                collectionOfViews![0].text = stackNumber
+                workingView.text = stackNumber
             }
 
         }
@@ -93,28 +91,118 @@ class ViewController: UIViewController {
     @IBAction func swapButton(sender: UIButton) {
         
         playSound()
-        
-        let temp = stackArray[0]
-        stackArray[0] = stackArray[1]
-        stackArray[1] = temp
-        
+
+        if stackArray.count > 0 {
+            
+            let temp = stackArray[0]
+            stackArray[0] = stackNumber
+            stackNumber = temp
+            workingView.text = stackNumber
+            
+        } else {
+            workingView.text = "STACK ERROR"
+            stackNumber = ""
+        }
+
         displayStack()
     }
     
     @IBAction func plusMinisButton(sender: AnyObject) {
         
+        if stackNumber.characters.contains("-") {
+            
+            stackNumber = stackNumber.stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: "-"))
+            
+            workingView.text = stackNumber
+
+        } else {
+            
+            if stackNumber != "" {
+                
+                stackNumber = "-" + stackNumber
+                
+                workingView.text = stackNumber
+            }
+
+        }
+        
+        displayStack()
     }
     
     @IBAction func enterButton(sender: UIButton) {
         
         playSound()
         
-        stackArray.append(stackNumber)
+        if stackNumber != "" {
+            
+            stackArray.append(stackNumber)
+            
+        } else {
+            
+            stackNumber = "0"
+            stackArray.append(stackNumber)
+            
+        }
         
         stackNumber = ""
         
+        workingView.text = "_"
+        
         displayStack()
 
+    }
+    
+    
+    @IBAction func plusButton(sender: UIButton) {
+        
+        performOperation(Operation.Add)
+        
+    }
+    
+    @IBAction func minusButton(sender: UIButton) {
+        
+        performOperation(Operation.Subtract)
+    }
+    
+    @IBAction func multiplyButton(sender: UIButton) {
+        
+        performOperation(Operation.Mutiply)
+    }
+    
+    @IBAction func divideButton(sender: UIButton) {
+        
+        performOperation(Operation.Divide)
+    }
+    
+    func performOperation(op: Operation) {
+        
+        playSound()
+        
+        switch op {
+        case Operation.Add:
+            stackNumber = "\(Double(stackArray[0])! + Double(stackNumber)!)"
+            
+        case Operation.Subtract:
+            stackNumber = "\(Double(stackArray[0])! - Double(stackNumber)!)"
+            
+        case Operation.Mutiply:
+            stackNumber = "\(Double(stackArray[0])! * Double(stackNumber)!)"
+            
+        case Operation.Divide:
+            stackNumber = "\(Double(stackArray[0])! / Double(stackNumber)!)"
+            
+        default:
+            print("error")
+        }
+        
+        stackArray.removeLast()
+        stackArray.append(stackNumber)
+        
+        print(stackArray)
+        
+        stackNumber = ""
+        workingView.text = "_"
+        displayStack()
     }
     
     func displayStack() {
@@ -127,7 +215,7 @@ class ViewController: UIViewController {
             
             for _ in stackArrayReverse {
                 
-                if i < 4 {
+                if i < 3 {
                     
                     collectionOfViews?[i].text = stackArrayReverse[i]
                     
