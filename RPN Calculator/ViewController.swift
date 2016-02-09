@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     var buttonSound: AVAudioPlayer = AVAudioPlayer()
     
+    var stackFlag = true
+    
     var stackNumber: String = ""
     var stackArray = [String]()
     var stackArrayReverse = [String]()
@@ -59,10 +61,27 @@ class ViewController: UIViewController {
         
         playSound()
         
-        stackNumber += "\(btn.tag)"
+        if stackFlag == true {
+            
+            stackNumber += "\(btn.tag)"
+            
+            workingView.text = stackNumber
+            
+        } else {
+            
+            stackFlag = true
+            
+            stackArray.append(stackNumber)
+            
+            stackNumber = ""
+            
+            stackNumber += "\(btn.tag)"
+            
+            workingView.text = stackNumber
+            
+            displayStack()
+        }
         
-        workingView.text = stackNumber
-
     }
     
     @IBAction func decimalButton(sender: UIButton) {
@@ -179,6 +198,8 @@ class ViewController: UIViewController {
     
     @IBAction func plusButton(sender: UIButton) {
         
+        stackFlag = false
+        
         performOperation(Operation.Add)
         
     }
@@ -220,12 +241,11 @@ class ViewController: UIViewController {
         }
         
         stackArray.removeLast()
-        stackArray.append(stackNumber)
         
-        print(stackArray)
+        print("StackArray \(stackArray)")
         
-        stackNumber = ""
-        workingView.text = "_"
+        workingView.text = stackNumber
+        
         displayStack()
     }
     
@@ -234,6 +254,7 @@ class ViewController: UIViewController {
         if stackArray.count != 0 {
             
             stackArrayReverse = stackArray.reverse()
+            print("stackArrayReverse \(stackArrayReverse)")
             
             var i = 0
             
@@ -249,6 +270,8 @@ class ViewController: UIViewController {
 
             }
 
+        } else {
+            collectionOfViews?[0].text = ""
         }
 
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D2793971C695F2900651A0A /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2793961C695F2900651A0A /* Operations.swift */; };
 		8DCD662C1C49BF2B00590959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD662B1C49BF2B00590959 /* AppDelegate.swift */; };
 		8DCD662E1C49BF2B00590959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCD662D1C49BF2B00590959 /* ViewController.swift */; };
 		8DCD66311C49BF2B00590959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCD662F1C49BF2B00590959 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D2793961C695F2900651A0A /* Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		8DCD66281C49BF2A00590959 /* RPN Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPN Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCD662B1C49BF2B00590959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DCD662D1C49BF2B00590959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				8DCD66321C49BF2B00590959 /* Assets.xcassets */,
 				8DCD66341C49BF2B00590959 /* LaunchScreen.storyboard */,
 				8DCD66371C49BF2B00590959 /* Info.plist */,
+				8D2793961C695F2900651A0A /* Operations.swift */,
 			);
 			path = "RPN Calculator";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2793971C695F2900651A0A /* Operations.swift in Sources */,
 				8DCD662E1C49BF2B00590959 /* ViewController.swift in Sources */,
 				8DCD662C1C49BF2B00590959 /* AppDelegate.swift in Sources */,
 			);
@@ -385,6 +389,7 @@
 				8DCD663C1C49BF2B00590959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
